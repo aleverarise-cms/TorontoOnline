@@ -1,0 +1,368 @@
+/*
+Theme Name: TorontoOnlineAVA
+Theme URI: 
+Author: Alevearise
+Author URI: https://aleverarise.com.ve
+Description: Mi primer plantilla en WordPress
+Version: 1.0
+Licence: GNU General Public licence or later
+Tags: html5, css3, ciudad
+*/
+
+html {
+	font-size: 1em;
+	line-height: 1.4;
+	color: #292929;
+}
+.clear {
+	clear: both;
+}
+ul {
+	padding: 0;
+	margin:0;
+}
+
+header {
+	background-color: #a00622;
+}
+
+header .logo {
+	width: 400px;
+	float: left;
+}
+header nav {
+	float: right;
+	width: 420px;
+	margin-top: 42px;
+}
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	display: inline; 
+	margin-left: 20px;
+}
+header nav ul li.current_page_item {
+	border-bottom: 2px solid #fff;
+	padding-bottom: 5px;
+}
+header nav ul li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+#contenido {
+	margin-top: 20px;
+}
+.container {
+	width:1100px;
+	margin: 0 auto;
+}
+#primary {
+	float: left;
+	width: 720px;
+}
+.destacada {
+	position: relative;
+	margin-bottom: 20px;
+}
+.destacada h2 {
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	background-color: #a00622;
+	padding: 10px 15px;
+	color: #ffffff;
+}
+
+h2.noimagen {
+	color: #a00622;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border:1px solid #a00622;
+}
+
+
+#secondary {
+	float: right;
+	width: 370px;
+	margin-left:10px;
+}
+
+
+/** SIDEBAR */
+
+#testimoniales h3 {
+	color: #a00622;
+	font-size: 20px;
+
+}
+#testimoniales .textwidget {
+	font-size: 20px;
+	line-height: 34px;
+	color: #767676;
+	background-image: url(img/svg_comilla.svg);
+	background-repeat: no-repeat;
+	background-position: left top ;
+	padding-left: 86px;
+	font-style: italic;
+
+}
+#testimoniales .textwidget span {
+	display: block;
+	text-align: right;
+	font-style: normal;
+}
+
+/** GUIA TORONTO */
+.post-guia {
+	float: left;
+	width: 350px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.post-guia .imagen{
+	position: relative;
+}
+.post-guia .imagen .categoria {
+	position: absolute;
+	top:10px;
+	left: 10px;
+}
+.categoria ul {
+	list-style: none;
+}
+.categoria ul li {
+	background-color: #a00622;
+	padding: 0px 5px;
+}
+.categoria ul li a {
+	text-decoration: none;
+	font-size: 10px;
+	color: white;
+	text-transform: lowercase;
+}
+
+.post-guia .contenido {
+	padding: 10px;
+}
+.post-guia .contenido h3 {
+	margin: 0;
+	padding: 0;
+	color: #a00622;
+}
+.post-guia .contenido p {
+	color: #000000;
+	font-size: 12px;
+	text-align: justify;
+}
+.post-guia .contenido a {
+	float: right;
+	background-color: #a00622;
+	font-size:14px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 6px;
+}
+.post-guia .info-post {
+	background-color: #ebebeb;
+	padding: 5px;
+}
+
+.post-guia .info-post p {
+	font-size:10px;
+	color: #000;
+	font-weight: bold;
+}
+p.autor {
+	float: left;
+	width: 40%;
+}
+p.autor span {
+	color: #a00622;
+}
+p.fecha {
+	float: right;
+	width: 40%;
+	text-align: right;
+}
+
+
+/** Single Post */
+.single .publicacion {
+	background-color: #ebebeb;
+	padding: 5px;
+	font-size: 12px;
+}
+.single .publicacion .columna {
+	float: left;
+	width: 33%;
+}
+.single .publicacion a,
+.single .publicacion span{
+	color: #a00622;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+footer {
+
+}
+
+footer nav {
+	float: left;
+	width: 500px;
+	margin-top: 30px;
+}
+footer nav ul {
+	list-style: none;
+}
+
+footer nav ul li {
+	display: inline; 
+	margin-right: 20px;
+}
+footer nav ul li a {
+	color: #a00622;
+	text-decoration: none;
+}
+
+footer hr {
+	border: 2px solid #a00622;
+}
+
+footer .copyright p {
+	color: #a00622;
+	text-align: center;
+}
+
+
+/*CONTACTO*/
+.no-sidebar{
+	width: 100% !important;
+}
+.post-14 h3{
+	text-align: center;
+	font-size: 20px;
+	color: #a00622;
+}
+
+.post-14 .wpcf7{
+	background-color: #f2f2f2;
+	padding: 40px;
+	width: 60%;
+	margin: 0 auto;
+	-webkit-box-shadow: 00px 20px 20px 0 rgba(0,0,0,.3);
+	box-shadow: 00px 20px 20px 0 rgba(0,0,0,.3);
+}
+
+.post-14 .wpcf7 p{
+	font-size: 12px;
+	font-weight: bold;
+	color: #a00622;
+	margin-bottom: 15px;
+}
+
+.post-14 .wpcf7 input,
+.post-14 .wpcf7 textarea {
+	height: 32px;
+	border: 1px solid #888;
+	border-radius: 8px;
+	width: 100%;
+}
+
+.post-14 .wpcf7 textarea {
+	height: 200px;
+}
+
+.post-14 .wpcf7 input[type="submit"]{
+	background-color: #a00622;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 5px;
+	width: auto;
+	padding: 0 20px;
+}
+
+/*FRONT PAGE*/
+#queVisitar{
+
+}
+
+#queVisitar .widget-title{
+	display: none;
+}
+
+#queVisitar .widget_sp_image{
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+#queVisitar .widget_sp_image .widget_sp_image-description{
+	padding: 0 40px;
+} 
+
+#queVisitar .widget_sp_image p{
+	text-align: center;
+	background-color: #a00622;
+	border-radius: 20px;
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#informacionConsejos{
+
+}
+
+#informacionConsejos h2, h3{
+	font-size: 20px;
+	color: #a00622;
+}
+
+#informacionConsejos div.informacion{
+	width: 360px;
+	float: left;
+	margin-right: 10px;
+}
+
+#informacionConsejos div.consejos{
+	float: left;
+	width: 720px;
+
+}
+
+#informacionConsejos div.consejos .consejoContenido{
+	float: right;
+	margin-right: 10px;
+	width: 350px;
+}
+
+#informacionConsejos div.consejos .consejoContenido a{
+	text-decoration: none;
+}
+
+#slider .bx-wrapper .bx-pager.bx-default-pager a.active{
+	background-color: #a00622;
+}
+
+#slider .bx-wrapper .bx-pager.bx-default-pager a{
+	background-color: #9b9b9b;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+}
+
+#slider .bx-wrapper .bx-pager{
+	bottom: -40px;
+}
